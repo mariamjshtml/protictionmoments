@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-antic = JSON.parse fs.readFileSync('./antic.json', 'utf8'));
+antic = JSON.parse)fs.readFileSync('./antic.json', 'utf8'));
 client.on("message", message =>{
 if(!antic[message.author.id]) {
 antic[message.author.id] = {
