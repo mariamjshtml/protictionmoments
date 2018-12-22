@@ -156,3 +156,5 @@ antic[anti.executor.id].actions = 0
         if (err) console.log(err.message);
     });
 });
+
+client.login(process.env.BOT_TOKEN);
